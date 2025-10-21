@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    height: 100vh;
+    font-family: "Serge UI" , serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.iphone-container {
+    border: 2px solid #eee;
+    border-radius:50px;
+    height: 98vh;
+    width: 23rem;
+    margin: 0px;
+    background-color: black;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+.iphone-container img{
+    width: 2rem;
+}
+.iphone-appbar-container{
+    height: 5%;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.iphone-appbar-container .iphone-appbar-icons-container img:last-child{
+    rotate:180deg;
+}
+
+.calculator-history-container{
+    height: 5%;
+    align-items: center;
+    justify-content: start;
+    padding-left: 1rem;
+}
+.calculator-display-container {
+    height: 25% !important;
+    color: rgb(170, 160, 160);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+.calculator-display-container {
+   font-size: 2rem; 
+   color:white;
+}
+#display-input.calculator-display{
+    height: 30px;
+}
+
+.calculator-display-history-container, p{
+    text-align: left;
+    margin: 0;
+    font-size: 17px;
+    color: gray;
+
+}
+.calculator-display{
+    font-size: 2rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.calculator-buttons {
+width: 80%;
+margin: 0, auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-left: 100px;
+gap: 10px;
+
+}
+#number-section {
+/* position: relative;*/
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    align-content: baseline;
+}
+.calculator-scientific-buttons{
+/*height: 1%;*/
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+width: 100%;
+padding: 10px;
+font-size: 10px;
+justify-content: stretch;
+margin-left: 45px;
+margin-top: 50px;
+
+}
+button {
+width: 45px;
+height: 25px;
+top: 20px;
+color: white;
+margin: 0 6px;
+border-radius: 50px;
+font-size: 15px;
+font-weight: bold;
+align-items: center;
+border: 1px solid black;
+background-color:  rgba(83, 72, 72, 0.466);
+}
+button img {
+    width: 2rem
+} 
+.calculator-buttons .special-operator {
+background-color: rgba(128, 128, 128, 0.808);
+}
+.calculator-buttons .operator{
+    background-color: orange;
+}
+.iphone-notched-container{
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.iphone-notched-container .iphone-notched-circle {
+    width: 9rem;
+    height: 0.3rem;
+    background-color: #eee;
+    border-radius: 15px;
+    margin: auto;
+}*/
