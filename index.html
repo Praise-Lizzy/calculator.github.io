@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="iphone-container">
+        <section class="iphone-appbar-container">
+            <div class="iphone-appbar-timer-container" id="current-time">
+            </div>
+            <div class="iphone-appbar-icons-container">
+                <img src="assets/icons/signal_cellular_alt_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <img src="assets/icons/wifi_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <img src="assets/icons/battery_full_alt_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+         
+        </section>
+        <section class="calculator-history-container">
+            <img id="showcalculationhistory" src="assets/icons/format_list_bulleted_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png" alt="">
+        </section>
+        <section class="calculator-display-container">
+            <div class="calculator-dislay-history-container" id="displayhistory">
+            </div>
+            <div class="calculator-display" id="display-input">
+                <span id="leftOperand"></span>
+                <span id="operator"></span>
+                <span id="rightOperand"></span>
+                <span id="result"></span>
+            </div>
+            <div class="flex-container">
+                <section class="calculator-scientific-buttons" id="scientific-calculator">
+                    <button id="(">(</button>
+                    <button id=")">)</button>
+                    <button id="mc">mc</button>
+                    <button id="m+">m+</button>
+                    <button id="m-">m-</button>
+                    <button id="mr">mr</button>
+                    <button id="second">2<sup>nd</sup></button>
+                    <button id="x2">x<sup>2</sup></button>
+                    <button id="x3">x <sup>3</sup></button>
+                    <button id="xsupy">x<sup>y</sup></button>
+                    <button id="e-to-the-x">e <sup>x</sup></button>
+                    <button id="10supx">10 <sup>x</sup></button>
+                    <button id="1/x">1/x</button>
+                    <button id="sqr-root1">2&#8730;x</button>
+                    <button id="cube-root">3&#8730;x</button>
+                    <button id="sqr-root">y&#8730;x</button>
+                    <button id="ln">ln</button>
+                    <button id="log">log <sub>10</sub></button>
+                    <button id="x!">x!</button>
+                    <button id="sin">sin</button>
+                    <button id="cos">cos</button>
+                    <button id="tan">tan</button>
+                    <button id="e">e</button>
+                    <button id="EE">EE</button>
+                    <button id="Rand">Rand</button>
+                    <button id="sinh">sinh</button>
+                    <button id="cosh">cosh</button>
+                    <button id="tanh">tanh</button>
+                    <button id="PI">&pi</button>
+                    <button id="Rad">Rad</button>
+                </section>
+    
+                <section class="calculator-buttons" id="number-section">
+                    <button class="special-operator" id="clearAc">AC</button>
+                    <button class="special-operator" id="plus/minus">+/-</button>
+                    <button class="special-operator" id="percent">%</button>
+                    <button class="operator" id="divide">/</button>
+                    <button id="button1">7</button>
+                    <button id="button2">8</button>
+                    <button id="button3">9</button>
+                    <button class="operator" id="multiply">*</button>
+                    <button id="button4">4</button>
+                    <button id="button5">5</button>
+                    <button id="button6">6</button>
+                    <button class="operator" id="subtract">-</button>                
+                    <button id="button7">1</button>
+                    <button id="button8">2</button>
+                    <button id="button9">3</button>
+                    <button class="operator" id="add">+</button>
+                    <button><img id="clear-calculator" src="assets/icons/calculate_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+                    <button id="button0">0</button>
+                    <button id="decimal">.</button>
+                    <button class="operator" id="equall">=</button>
+                </section>
+            </div>
+        </section>
+    </div>
+        <section class="iphone-notched-container">
+            <div class="iphone-notched-circle"></div>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>
